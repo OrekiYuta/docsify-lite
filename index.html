@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>docsify-lite</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="description" content="Description">
+    <link rel="shortcut icon" href="../assets/icon/write.svg">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css"> -->
+    <link rel="stylesheet" href="../assets/css/vue.css">
+</head>
+
+<body>
+<div id="app"></div>
+<!-- docsify-edit-on-github -->
+<!-- <script src="//unpkg.com/docsify-edit-on-github/index.js"></script> -->
+<script src="../assets/js/index.js"></script>
+<script>
+    window.$docsify = {
+        name: 'docsify-lite',
+        repo: 'https://github.com/OrekiYuta/docsify-lite',
+        maxLevel: 5,
+        subMaxLevel: 3,
+        homepage: 'README.md',
+        coverpage: true,
+        loadSidebar: true,
+        auto2top: true,
+        //全文搜索
+        search: {
+            //maxAge: 86400000,
+            paths: 'auto',
+            placeholder: 'Search',
+            noData: 'Not Result Found',
+            // , 1 - 6
+            depth: 3,
+        },
+        plugins: [
+            // EditOnGithubPlugin.create('https://github.com/OrekiYuta/docsify-lite')
+        ],
+    }
+</script>
+<!-- <script src="//unpkg.com/docsify/lib/docsify.min.js"></script> -->
+<script src="../assets/js/docsify.min.js"></script>
+
+<!-- <script src="//unpkg.com/prismjs/components/prism-java.js"></script> -->
+<script src="../assets/js/prism-java.js"></script>
+
+<!-- <script src="https://cdn.bootcss.com/docsify/4.5.9/plugins/search.min.js"></script> -->
+<script src="../assets/js/search.min.js"></script>
+
+<!-- <script src="//unpkg.com/docsify-copy-code"></script> -->
+<script src="../assets/js/docsify-copy-code.min.js"></script>
+
+<!-- <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script> -->
+<script src="../assets/js/zoom-image.js"></script>
+
+<!-- <script src="//unpkg.com/docsify-count/dist/countable.js"></script> -->
+<script src="../assets/js/countable.js"></script>
+</body>
+
+</html>
